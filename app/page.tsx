@@ -5,6 +5,7 @@ import {
   Check,
   ChevronRight,
   Clipboard,
+  Coffee,
   Code2,
   Command,
   Copy,
@@ -323,6 +324,15 @@ export default function Home() {
             >
               <History size={12} /> HISTORY
             </button>
+            <a
+              href="https://buymeacoffee.com/zen0id"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 rounded-md border border-amber-500/20 bg-amber-500/10 px-3 py-1.5 text-xs font-medium text-amber-400 transition-all duration-200 hover:bg-amber-500/20"
+            >
+              <Coffee className="h-3.5 w-3.5" />
+              <span>Buy Me a Coffee</span>
+            </a>
           </div>
         </header>
 
